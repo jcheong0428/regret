@@ -1,4 +1,4 @@
-function [rpe, regret,choice]=checkorthogonal(payoff);
+function [rpe, regret,choice]=checkorthogonal(payoff)
 
 %% Get reward prediction errors
 ev = nan(length(payoff),2);
